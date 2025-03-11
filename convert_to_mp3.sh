@@ -2,7 +2,7 @@
 
 # Convert an album to mp3
 
-SOURCE_DIR="$HOME/Music/Music/Media.localized/Artist/Album"
+SOURCE_DIR="$HOME/Music/Music/Media.localized/Music/Artist/Album"
 TARGET_DIR="$HOME/Desktop/Artist/Album"
 
 mkdir -p "$TARGET_DIR"
