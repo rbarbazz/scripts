@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Convert an album to mp3
-
-SOURCE_DIR="$HOME/Music/Music/Media.localized/Music/Artist/Album"
-TARGET_DIR="$HOME/Desktop/Artist/Album"
+ARTIST_ALBUM="Artist/Album"
+SOURCE_DIR="$HOME/Music/Music/Media.localized/Music/$ARTIST_ALBUM"
+TARGET_DIR="$HOME/Desktop/$ARTIST_ALBUM"
 
 mkdir -p "$TARGET_DIR"
 
